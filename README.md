@@ -29,4 +29,4 @@ The post-processing codes for the 4 test cases can be find in the folder pp-code
 [^2]: We gratefully acknowledge the support from Dr. Elena Gagarina: she shared with us the original MATLAB code for FFT, as well as the numerical results obtained from her model for the same test case (see http://dx.doi.org/10.1016/j.jcp.2014.06.035).
 
 ## :speech_balloon: Get in touch with us!
-If you have any questions or suggestions on the code or coding style (e.g., you may have a more elegant way to output results during the time loops and post-process the data), do not hesitant to drop us an e-mail (*mmyl@leeds.ac.uk*). Your feedback is highly appreciated and will help us further improve the code ;)
+If you have any questions, comments or suggestions on the code or coding style (e.g., you may have a more elegant way to output results during the time loops and post-process the data), do not hesitate to drop us an e-mail (*mmyl@leeds.ac.uk*). Your feedback is highly appreciated and will help us further improve the code ;)
