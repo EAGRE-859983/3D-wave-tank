@@ -16,7 +16,7 @@ This repository contains Firedrake codes for the four test cases (TCs) in the pa
   ```
 
 ## :triangular_ruler: How to reproduce the results?
-The post-processing codes for the 4 test cases can be find in the folder pp-codes, and the figures they produce as we used in the paper are shown in the folder figures. The instructions for reproducing each test case are summarized in the table below.
+The post-processing codes for the 4 test cases can be find in the folder [pp-codes](pp-codes), and the figures they produce as we used in the paper are shown in the folder [figures](figures). The instructions for reproducing each test case are summarized in the table below.
 
 | Test Case | Figures in the paper (Code name)| Instructions |
 | :---: |  :--- | :--- |
