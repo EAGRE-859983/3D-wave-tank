@@ -9,7 +9,7 @@ This repository contains Firedrake codes for the four test cases (TCs) in the pa
   - You can set the *path* for storing numerical results by modifing `save_path` in the function `test_case`. 
   - If you want to run a simulation with *mild-slope approximation* (MSA), set `FWF = 0`. Alternatively, you can implement the full energy expression and full weak formulations (FWF) by setting `FWF = 1`.
   - You can also change the *spatial or temporal resolution* of a test case by modifing `res_x`, `res_y` in the function `domain`, or `dt` in the function `set_time`.
-- In addtion, you can also create your own test case by modifing `settings_User.py` and set `case = 'TCU'` in the beginning of `3D_tank.py`.
+- In addition, you can also create your own test case by modifing `settings_User.py` and set `case = 'TCU'` in the beginning of `3D_tank.py`.
 - The code can be run in serial, but also in parallel using P processes without making any changes to the code itself through a MPI call:
   ```
   $ mpiexec -n P python3 3D_tank.py
