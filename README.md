@@ -8,6 +8,7 @@ This repository contains Firedrake codes for the four test cases (TCs) in the pa
 - In the `settings_TCx.py` file: 
   - You can set the *path* for storing numerical results by modifing `save_path` in the function `test_case`. 
   - If you want to run a simulation with *mild-slope approximation* (MSA), set `FWF = 0`. Alternatively, you can implement the full energy expression and full weak formulations (FWF) by setting `FWF = 1`.
+  - The boolean variable `save_pvd` following `FWF` determines whether or not to output the solutions into `.pvd` files, which can be visualised using [Paraview](https://www.paraview.org/). If `save_pvd = True`, then the numerical results for the velocity potential of the whole fluid domain before coordinate transformation and the values of tilde R defined by Eq.(5) distributed over the transformed domain will be saved into `waves.pvd` and `Wavemaker.pvd`, respectively.
   - You can also change the *spatial or temporal resolution* of a test case by modifing `res_x`, `res_y` in the function `domain`, or `dt` in the function `set_time`.
 - In addition, you can also create your own test case by modifing `settings_User.py` and set `case = 'TCU'` in the beginning of `3D_tank.py`.
 - The code can be run in serial, but also in parallel using P processes without making any changes to the code itself through a MPI call:
