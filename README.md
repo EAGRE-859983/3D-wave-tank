@@ -1,5 +1,5 @@
 # :ocean: Firedrake code for the 3D numerical wave tank
-This repository contains Firedrake codes for the four test cases (TCs) in the paper *Variational and numerical modelling strategies for cost-effective simulations of driven free-surface waves*, which is to be submitted to *Journal of Computational Physics*.
+This repository contains Firedrake codes for the four test cases (TCs) in the paper [*Variational and numerical modelling strategies for cost-effective simulations of driven free-surface waves*](https://doi.org/10.31223/X5WS8F), which has been submitted to *Journal of Computational Physics*. The preprint can also be found here.
 
 ## :ledger: How to use the code?
 - First, you need to install [Firedrake](https://www.firedrakeproject.org/download.html), which is a finite-element simulation environment.
