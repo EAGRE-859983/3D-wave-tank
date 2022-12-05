@@ -1,1 +1,2 @@
-This folder contains post-processing codes for the four test cases.
+- This folder contains post-processing codes for the four test cases.
+- Please note that you may need to change the path in the code when loading the data with the directory you used to store the data on your machine. 
