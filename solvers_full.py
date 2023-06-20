@@ -294,10 +294,10 @@ def WF_psi_half_SV(dim, n_z, g, H0, Lw, dt, delta_h_sv, delta_hat_psi_sv, psi_1_
                                        ( VoW_half*h_n0.dx(0)**2 + Ww_half*h_n0.dx(1)**2 + 2.0*Uu_half*h_n0.dx(0)*h_n0.dx(1) )\
                       + (H0*H0/h_n0) * elem_mult(delta_hat_psi_sv,(AN1*psi_1_half + dot(ANN,hat_psi_star))) * \
                                        ( FWF*(VoW_half*b.dx(0)**2 + Ww_half*b.dx(1)**2 + 2.0*Uu_half*b.dx(0)*b.dx(1)) + Ww_half)\
-                  + (2.0*H0*H0/h_n0) * elem_mult(delta_hat_psi_sv,(CN1*psi_1_half + dot(CNN,hat_psi_star))) * \
+                     + (2.0*H0/h_n0) * elem_mult(delta_hat_psi_sv,(CN1*psi_1_half + dot(CNN,hat_psi_star))) * \
                                        ( h_n0.dx(0)*(VoW_half*b.dx(0)+Uu_half*b.dx(1)) + h_n0.dx(1)*(Ww_half*b.dx(1)+Uu_half*b.dx(0)) ))
         
-        # checked by yl. JCP (D.2), full vweak form!
+        # checked by yl. JCP (D.2), full weak form!
         # checked again against SE step1
         # Implement MSA: FWF=0 and Bij=Cij=0.
 
