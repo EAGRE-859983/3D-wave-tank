@@ -444,7 +444,7 @@ def WF_h_SV(dim, n_z, Lw, H0, g, dt, delta_psi, delta_hat_star, h_n0, h_n1, psi_
                                        ( VoW_half*h_n1.dx(0)**2 + Ww_half*h_n1.dx(1)**2 + 2.0*Uu_half*h_n1.dx(0)*h_n1.dx(1) )\
                      + (H0*H0/h_n1) * elem_mult(delta_hat_star,(AN1*psi_1_half + dot(ANN,hat_psi_aux))) * \
                                        ( FWF*(VoW_half*b.dx(0)**2 + Ww_half*b.dx(1)**2 + 2.0*Uu_half*b.dx(0)*b.dx(1)) + Ww_half)\
-                 + (2.0*H0*H0/h_n1) * elem_mult(delta_hat_star,(CN1*psi_1_half + dot(CNN,hat_psi_aux))) * \
+                    + (2.0*H0/h_n1) * elem_mult(delta_hat_star,(CN1*psi_1_half + dot(CNN,hat_psi_aux))) * \
                                        ( h_n1.dx(0)*(VoW_half*b.dx(0)+Uu_half*b.dx(1)) + h_n1.dx(1)*(Ww_half*b.dx(1)+Uu_half*b.dx(0)) ))
 
         # checked by yl. JCP (D.4), full weak form!
